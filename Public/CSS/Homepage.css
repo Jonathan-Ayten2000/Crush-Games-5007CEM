@@ -1,1 +1,80 @@
+     h1, h2 {
+            color: white;
+            padding: 20px;
+          }
+          
+          p1, p2, p3, p4, p5 {
+            color: white;
+            padding: 30px;
+          }
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
 
+          
+          footer {
+            color: white;
+            background-color: red;
+            text-align: center;
+            /*border: 1px solid black;*/
+            padding: 0px;
+            width: 2000px;
+            height: 70px;
+          }
+          body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+          }
+          .navbar {
+           color: black; 
+           overflow: hidden;
+          background-color: red;
+          }
+          .navbar a:hover {
+            background-color: green;
+            color: red;
+            }
+
+          .navbar a.active {
+            background-color: white;
+            color: green;
+            }
+          .container-fluid {
+            margin: 0;
+            padding: 0px;
+            background-color: red;
+          }
+          .logo {
+            float: left;
+            width: 8%;
+          }
+          .title {
+            margin-top: 20px;
+          }
+          .carousel-inner{
+            height: auto;
+            
+          }
+          .column1 {
+          float: left;
+          width: 31.8%;
+          padding: 0px;
+          }
+          .row1::after {
+          content: "";
+          clear: both;
+          display: table;
+          }
+          .column2{
+          float: left;
+          width: 32%;
+          padding: 0px;
+          }
+          .row2::after{
+          content: "";
+          clear: both;
+          display: table
+          }
