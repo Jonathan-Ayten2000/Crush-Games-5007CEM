@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>CRUSH GAMES - Contact Us</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <style>
+        </style>
+    </head>
+    <body>
 
+
+              <div class="row2">
+                  <div class="column2">
+                    <br>
+                    <img src="CRUSH GAMES.png" alt="CRUSH GAME Logo" style="width:65%">
+                  </div>
+                  <br>
+                  <p5>Our Partners:</p5>
+                  <br>
+                  <div class="column2">
+                      <img src="playstation.png" alt="Playstation Logo" style="width:25%">
+                    </div>
+                    <br>
+                    <div class="column2">
+                        <img src="Xbox.png" alt="Xbos Logo" style="width: 35%">
+                      </div>
+                    <div class="column2">
+                        <img src="steam-logo-transparent.png" alt="Steam Logo" style="width:15%">
+                      </div> 
+                    
+                    
+                </div>
+                <br>
+        
+          <nav class="navbar navbar-expand-sm navbar-dark primary-color">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="Homepage.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Products.html">Products</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Our Team.html">Our Team</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Contact Us.html">Contact Us</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="Admin Login.html">Admin Login</a>
+              </li>
+            </ul>
+          </nav>
+       </div>
+
+
+       <h1>Contact Us</h1>
+
+       <div class="container">
+
+            <div class="row">
+
+                <div class="col-xl-8 offset-xl-2 py-5">
+
+                    <p class="lead">Please Enter The Correct Details.</p>
+
+                    <form id="contact-form" name="contact" method="post" onsubmit="submitForm()" role="form">
+
+                        <div class="messages"></div>
+                    
+                        <div class="controls">
+                    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_need">Please specify your need *</label>
+                                        <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                            <option value=""></option>
+                                            <option value="Request quotation">Request quotation</option>
+                                            <option value="Request order status">Request order status</option>
+                                            <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    <h4 style="color:green" class="hidden" id="success">Your message has been recieved, we will reply as soon as possible</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">
+                                        <strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+   
+        
+ 
+
+        
+      
+
+         
+
+
+      
+      <!-- Footer -->
+        <footer class="page-footer font-small cyan darken-3">
+
+           <div class=text1><footer>Add Filler</footer>
+          </div> 
+
+    
+      <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+            </div>
+  <!-- Copyright -->
+
+      <!--<div class=footer><img src="./imgs/footer.jpg" ></div> -->
+
+    </footer>
+    <!-- Footer -->  
+
+    </body>
+</html>
