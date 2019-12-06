@@ -31,5 +31,6 @@ app.get('/', function(req, res) {
  res.sendFile(path.join(dirname+'/Webpages -HTML/Admin Login.html'));
  
 });
- //run the server on port 3000 
-app.listen(3000);
+var port = process.env.PORT || 3000;
+  //run the server on port 3000 
+app.listen(port);
